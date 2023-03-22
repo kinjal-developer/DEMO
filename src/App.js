@@ -22,6 +22,7 @@ const App = () => {
     <>
 <form  onSubmit={handle}>
       <h2>Login</h2>
+      <h1>Kinjal</h1>
         <label>Name</label> <br />
         <input type="text" onChange={(e) => setName(e.target.value)}  />      
         <label> Password </label><br />
